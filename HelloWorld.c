@@ -2,11 +2,31 @@
 #include <string.h>
 #include <math.h>
 #include <ctype.h>
+#include <stdbool.h>
 
 
+
+   // FUNCTIONS
+
+void birthday(char name[], int age) {
+ 
+    
+    
+  
+}
 
 
 int main(){
+
+    
+    
+
+
+    return 0;
+
+
+
+
 
     // format specifiers % = defines and formats a type of data to be displayed
 
@@ -176,42 +196,86 @@ int main(){
     // }
 
 
-    char operator;
-    double num1;
-    double num2;
-    double result;
+    // char operator;
+    // double num1;
+    // double num2;
+    // double result;
 
-    printf("\nEnter an operator (+ - * /): ");
-    scanf("%c", &operator);
+    // printf("\nEnter an operator (+ - * /): ");
+    // scanf("%c", &operator);
 
-    printf("Enter number 1: ");
-    scanf("%lf", &num1);
+    // printf("Enter number 1: ");
+    // scanf("%lf", &num1);
 
-    printf("Enter number 2: ");
-    scanf("%lf", &num1);
+    // printf("Enter number 2: ");
+    // scanf("%lf", &num2);
 
-    switch(operator) {
-        case '+':
-            result = num1 + num2;
-            printf("\nresult: %lf", result);
-            break;
-        case '-':
-            result = num1 - num2;
-            printf("\nresult: %lf", result);
-            break; 
-        case '*':
-            result = num1 * num2;
-            printf("\nresult: %lf", result);
-            break; 
-        case '/':
-            result = num1 / num2;
-            printf("\nresult: %lf", result);
-            break; 
-        default: 
-            printf("%c is not valid", operator);
-    }
+    // switch(operator) {
+    //     case '+':
+    //         result = num1 + num2;
+    //         printf("\nresult: %lf", result);
+    //         break;
+    //     case '-':
+    //         result = num1 - num2;
+    //         printf("\nresult: %lf", result);
+    //         break; 
+    //     case '*':
+    //         result = num1 * num2;
+    //         printf("\nresult: %lf", result);
+    //         break; 
+    //     case '/':
+    //         result = num1 / num2;
+    //         printf("\nresult: %lf", result);
+    //         break; 
+    //     default: 
+    //         printf("%c is not valid", operator);
+    // }
 
-    return 0 ; 
+    // logical operators = && (AND) checks if two condttions are true
+
+    // float temp = 24;
+    // bool sunny = true; 
+
+    // if(temp >= 0 && temp <= 30 && sunny){
+    //     printf("\nThe weather is good!");
+    // }
+    // else{
+    //     printf("\nThe weather is bad!");
+    // }
+
+
+    // logical operator = || (OR) checks if at least one conditon is true
+
+    //  float temp = -1000;
+    
+
+    // if(temp <= 0 || temp >= 30){
+    //     printf("\nThe weather is bad!");
+    // }
+    // else{
+    //     printf("\nThe weather is good!");
+    // }
+
+
+    // logical operator = ! (NOT) reverses the state of a condition 
+
+    // bool sunny = true;
+
+    // if(!sunny) {
+    //     printf("\nIt's sunny outside!");
+    // }
+    // else{
+    //     printf("\nIt's cloudy outside");
+    // }
+
+
+
+    
+
+
+
+
+    
 // test
  
 }
