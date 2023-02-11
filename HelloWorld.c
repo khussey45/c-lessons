@@ -5,21 +5,33 @@
 #include <stdbool.h>
 
 
-struct Player {
 
-    char name[12];
-    int score;
-};
 
 int main() {
 
-    
+   
 
     return 0;
 }
 
+ // struct Student student1 = {"Spongebob", 3.0};
+    // struct Student student2 = {"Patrick", 2.5};
+    // struct Student student3 = {"Sandy", 4.0};
+    // struct Student student4 = {"Squidward", 1.0};
 
+    // struct Student students[] = {student1, student2, student3, student4};
 
+    // for(int i = 0; i < sizeof(students)/sizeof(students[0]); i++) {
+
+    //     printf("%-12s\t", students[i].name);
+    //     printf("%.2f\n", students[i].gpa);
+    // }
+
+// struct Player {
+
+//     char name[12];
+//     int score;
+// };
 
 
 
