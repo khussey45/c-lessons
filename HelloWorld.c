@@ -5,43 +5,85 @@
 #include <stdbool.h>
 
 
+struct Player {
+
+    char name[12];
+    int score;
+};
+
+int main() {
+
+    
+
+    return 0;
+}
+
+
+
+
+
+
+// struct = collection of related members ("Variables")
+    // they can be of different data types 
+    // listed under one name in a block of memory 
+    // very similiar to classes in other lamguagues (but no methods)
+
+    // struct Player player1;
+    // struct Player player2;
+
+    // strcpy(player1.name, "Kieren");
+    // player1.score = 4;
+
+    // strcpy(player2.name, "Hussey");
+    // player2.score = 9;
+
+    // printf("%s\n", player1.name);
+    // printf("%s\n",player1.score);
+
+    // printf("%s\n", player2.name);
+    // printf("%s\n",player2.score);
+
+
+
+
+
 // SORTING AN ARRAY WITH BUBBLE SORT 
 
-void sort(char array[], int size) {
+// void sort(char array[], int size) {
 
-    for(int i = 0; i < size - 1; i++) {
-        for(int j = 0; j < size - i - 1 ; j++) {
+//     for(int i = 0; i < size - 1; i++) {
+//         for(int j = 0; j < size - i - 1 ; j++) {
 
-            if(array[j] > array[j+1]) {
+//             if(array[j] > array[j+1]) {
 
-                int temp = array[j];
-                array[j] = array[j+1];
-                array[j+1] = temp;
-            }
-        }
-    }
-}
+//                 int temp = array[j];
+//                 array[j] = array[j+1];
+//                 array[j+1] = temp;
+//             }
+//         }
+//     }
+// }
 
-void printArray(char array[], int size) {
+// void printArray(char array[], int size) {
 
-    for(int i = 0; i < size; i++) {
-        printf("%c", array[i]);
-    }
+//     for(int i = 0; i < size; i++) {
+//         printf("%c", array[i]);
+//     }
 
-}
+// }
 
-int main(){
+// int main(){
 
-    // int array[] = {3,1,4,2,5,6,4,};
-    char array[] = {'F','B','C', 'A'};
-    int size = sizeof(array)/sizeof(array[0]);
+//     // int array[] = {3,1,4,2,5,6,4,};
+//     char array[] = {'F','B','C', 'A'};
+//     int size = sizeof(array)/sizeof(array[0]);
 
-    sort(array, size);
-    printArray(array, size);
+//     sort(array, size);
+//     printArray(array, size);
  
-    return 0;
+//     return 0;
 
-}
+// }
 
 // char cars[][10] = {"Mustang", "corvette", "Camero"};
 
