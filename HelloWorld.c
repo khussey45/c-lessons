@@ -11,25 +11,30 @@
 
 int main(){
 
-    // 2D array = an array, where each element is an entire array
-    // useful if you need a matrix, grid, or table of data
+    char x = 'X';
+    char y = 'Y';
 
-    int numbers[2][3] = {
-                         {1, 2, 3}, 
-                         {4, 5, 6}
-                        };
-
-for() {
-    
-}
+    printf("x = %c\n", x);
+    printf("y = %c\n", y);
 
     return 0;
 
 }
+
+// char cars[][10] = {"Mustang", "corvette", "Camero"};
+
+    // strcpy(cars[0], "Tesla");
+
+    // for(int i = 0; i < sizeof(cars)/sizeof(cars[0]); i++) {
+
+    //     printf("%s\n", cars[i]);
+    // }
+
 // array = a data structure that can store many values of the same data type
 
    
-
+// 2D array = an array, where each element is an entire array
+    // useful if you need a matrix, grid, or table of data
   
     // looping through an array
     // double prices[] = {5.0, 10.0, 15.0, 25.0, 20.0};
