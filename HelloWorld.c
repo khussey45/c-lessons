@@ -9,10 +9,19 @@
 
 int main() {
 
-   
+    
+
 
     return 0;
 }
+
+// enum = a user defined type of named integer identifiers
+    // helps to make a program more readable
+
+    // enum Day today  = Sat;
+
+    // printf("%d", today);
+// enum Day{Sun = 1, Mon = 2, Tue = 3, Wed = 4, Thur = 5, Fri = 6, Sat = 7};
 
  // struct Student student1 = {"Spongebob", 3.0};
     // struct Student student2 = {"Patrick", 2.5};
