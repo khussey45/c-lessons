@@ -11,17 +11,84 @@
 
 int main(){
 
-  
-    // for loop  = repeats a section of code a limited amount of times
-    
+    // array = a data structure that can store many values of the same data type
+
+    double prices[5];
+
+    prices[0] = 5.0;
+    prices[1] = 10.0;
+    prices[2] = 15.0;
+    prices[3] = 25.0;
+    prices[4] = 20.0;    
 
 
 
-   
-    
+    printf("$%.2lf", prices[1]);
+
     return 0;
 
-} 
+}
+
+// continue = skips rest of code & forces the next iteration of the loop 
+    // break = exits a loop/switch 
+
+    // for loop  = repeats a section of code a limited amount of times
+    // while loop = repeats a section of code possibly unlimited times while some condition remians true, or may not execute at all
+
+    // char name[25];
+
+    // printf("\nWhat's your name?: ");
+    // fgets(name, 25, stdin);
+    // name[strlen(name)-1] = '\0';
+    
+    // while(strlen(name) == 0) {
+    //     printf("You did not enter your name");
+    //     printf("\nWhat's your name?: ");
+    //     fgets(name, 25, stdin);
+    //     name[strlen(name)-1] = '\0';
+    // }
+
+    // printf("Hello %s", name);
+
+     // do while loop = always executes a block of code once, THEN checks a condition
+
+    // int number  = 0;
+    // int sum = 0;
+
+    //  do {
+    //     printf("Enter a # above 0: ");
+    //     scanf("%d", &number);
+    //     if(number > 0) {
+    //         sum += number;
+    //     }
+    // }while (number > 0);
+    
+    
+     // nested loop = a loop inside of another loop 
+
+    // int rows;
+    // int columns;
+    // char symbol;
+
+    // printf("\nEnter # of rows: ");
+    // scanf("%d", &rows);
+
+    // printf("\nEnter # of columns: ");
+    // scanf("%d", &columns);
+
+    // scanf("%c");
+
+    // printf("Enter a symbol to use:  ");
+    // scanf("%c", &symbol);
+
+    // for(int i = 1; i <= rows; i++){
+
+    //     for(int j = 1; j <= columns; j++) {
+    //         printf("%c", symbol );
+    //     }
+    //     printf("\n");
+    // }
+   
 
 
 
