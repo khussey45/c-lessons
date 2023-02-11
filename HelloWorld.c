@@ -4,25 +4,53 @@
 #include <ctype.h>
 #include <stdbool.h>
 #include <time.h>
+#include <stdlib.h>
 
 
 
 
 int main() {
 
-    // pseudo random numbers = A set of values or elements that are statistically random (Dont use these for any sort of cryptographic security)
+    const int MIN = 1;
+    const int MAX = 100;
+    int guess;
+    int guesses;
+    int answer;
 
+    // uses the current time as a seed
     srand(time(0));
 
-    int number1 = (rand() % 6) + 1;
+    // generate a random number between MIN & MAX 
+    answer  = (rand() % MAX + MIN);
 
-    printf("%d", number1);
+    do{
+        printf("Enter a guess: ");
+        scanf("%d", &guess);
+        if(guess > answer) {
+            printf("Too High!\n");
+        } else if(guess < answer) {
+            printf("Too low!\n");
+        }else{
+            printf("correct!\n");
+        }
+        guesses++;
+     } while(guess != answer);
 
-    
+    printf("***************");
+    printf("answer: %d\n", answer);
+    printf("answer: %d\n", guesses);
 
     return 0;
 }
 
+
+    // pseudo random numbers = A set of values or elements that are statistically random (Dont use these for any sort of cryptographic security)
+
+    // srand(time(0));
+
+    // int number1 = (rand() % 6) + 1;
+
+    // printf("%d", number1);
 
 
 // enum = a user defined type of named integer identifiers
