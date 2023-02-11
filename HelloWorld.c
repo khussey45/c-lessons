@@ -5,18 +5,40 @@
 #include <stdbool.h>
 
 
+// SORTING AN ARRAY WITH BUBBLE SORT 
 
+void sort(char array[], int size) {
 
+    for(int i = 0; i < size - 1; i++) {
+        for(int j = 0; j < size - i - 1 ; j++) {
 
+            if(array[j] > array[j+1]) {
+
+                int temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
+            }
+        }
+    }
+}
+
+void printArray(char array[], int size) {
+
+    for(int i = 0; i < size; i++) {
+        printf("%c", array[i]);
+    }
+
+}
 
 int main(){
 
-    char x = 'X';
-    char y = 'Y';
+    // int array[] = {3,1,4,2,5,6,4,};
+    char array[] = {'F','B','C', 'A'};
+    int size = sizeof(array)/sizeof(array[0]);
 
-    printf("x = %c\n", x);
-    printf("y = %c\n", y);
-
+    sort(array, size);
+    printArray(array, size);
+ 
     return 0;
 
 }
