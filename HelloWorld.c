@@ -7,41 +7,91 @@
 #include <stdlib.h>
 
 
-
-
 int main() {
 
-    const int MIN = 1;
-    const int MAX = 100;
-    int guess;
-    int guesses;
-    int answer;
-
-    // uses the current time as a seed
-    srand(time(0));
-
-    // generate a random number between MIN & MAX 
-    answer  = (rand() % MAX + MIN);
-
-    do{
-        printf("Enter a guess: ");
-        scanf("%d", &guess);
-        if(guess > answer) {
-            printf("Too High!\n");
-        } else if(guess < answer) {
-            printf("Too low!\n");
-        }else{
-            printf("correct!\n");
-        }
-        guesses++;
-     } while(guess != answer);
-
-    printf("***************");
-    printf("answer: %d\n", answer);
-    printf("answer: %d\n", guesses);
 
     return 0;
 }
+
+// int main() {
+
+//     char questions[][100] = {"1. What year did the C language debut?: ",
+//     "2. Who is credited with creating C?:",
+//     "3. What is the predecessor of C?: "};
+
+//     char options[][100] = {"A.1969", "B. 1972", "C. 1975", "D. 1999", "A. Dennis Ritchie", "B. Nikola Tesla", "C. John Carmack", "D. Doc Brown", " A. Objective C ", "B. B", "C. C++", "D. C#"};
+
+//     char answers[3] = {'B', 'A', 'B'};
+//     int numberOfQuestions = sizeof(questions)/sizeof(questions[0]);
+
+//     char guess;
+//     int score;
+
+//     printf("QUIZ GAME\n");
+
+//     for(int i = 0; i < numberOfQuestions; i++ ) {
+
+//         printf("***********\n");
+//         printf("%s", questions[i]);
+//         printf("***********\n");
+
+//         for(int j = (i * 4); j < (i * 4) + 4; j++) {
+
+//             printf("%s\n", options[j]);
+//         }
+
+//         printf("Guess: ");
+//         scanf("%c", &guess);
+//         scanf("%c"); //clear \n from input buffer 
+        
+
+//         guess = toupper(guess);
+
+//         if(guess == answers[i]) {
+//             printf("Correct!\n");
+//             score++;
+
+//         }else {
+//             printf("Wrong\n");
+//         }
+//     }
+//     printf("***********\n");
+//     printf("Final Score: %d/%d\n", score, numberOfQuestions);
+//     printf("***********\n");
+    
+//     return 0;
+// }
+
+
+
+    // const int MIN = 1;
+    // const int MAX = 100;
+    // int guess;
+    // int guesses;
+    // int answer;
+
+    // // uses the current time as a seed
+    // srand(time(0));
+
+    // // generate a random number between MIN & MAX 
+    // answer  = (rand() % MAX + MIN);
+
+    // do{
+    //     printf("Enter a guess: ");
+    //     scanf("%d", &guess);
+    //     if(guess > answer) {
+    //         printf("Too High!\n");
+    //     } else if(guess < answer) {
+    //         printf("Too low!\n");
+    //     }else{
+    //         printf("correct!\n");
+    //     }
+    //     guesses++;
+    //  } while(guess != answer);
+
+    // printf("***************\n");
+    // printf("answer: %d\n", answer);
+    // printf("guesses: %d\n", guesses);
 
 
     // pseudo random numbers = A set of values or elements that are statistically random (Dont use these for any sort of cryptographic security)
