@@ -6,19 +6,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-// global variables
-char board[3][3];
-const char PLAYER = 'X';
-const char COMPUTER = 'O';
-
-// function prototypes
-void resetBoard();
-void printBoard();
-int checkFreeSpaces();
-void playerMove();
-void computerMove();
-char checkWinner();
-void printWinner(char);
 
 
 
