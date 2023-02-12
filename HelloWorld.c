@@ -7,29 +7,14 @@
 #include <stdlib.h>
 
 
-void printAge(int *pAge) {
 
-    printf("You are %d years old\n", age);
-}
 
 int main() {
 
-    // pointer = a "variable-like" reference that holds memory address to anther variable or array, and some tasks are performed more easily with pointers
-    // * = indirection operator (value at address)
-    
-    int age = 21;
-    int *pAge = &age;
-    
-    printf("address of age: %p\n", &age);
-    printf("address of pAge: %p\n", pAge);
+   
+    FILE *pF = fopen("C:\\Users\\kiere\\OneDrive\\Desktop\\test.txt", "w");
 
-    printf("size of sge: %d bytes\n", sizeof(age));
-    printf("size of pAge: %d bytes\n", sizeof(pAge));
 
-    printf("value of age: %d\n", age);
-    printf("value  at stored address: %d\n", *pAge);
-
-    printAge(age);
 
     return 0;
 }
@@ -37,6 +22,22 @@ int main() {
 
 
 
+ // pointer = a "variable-like" reference that holds memory address to anther variable or array, and some tasks are performed more easily with pointers
+    // * = indirection operator (value at address)
+    
+    // int age = 21;
+    // int *pAge = &age;
+    
+    // printf("address of age: %p\n", &age);
+    // printf("address of pAge: %p\n", pAge);
+
+    // printf("size of sge: %d bytes\n", sizeof(age));
+    // printf("size of pAge: %d bytes\n", sizeof(pAge));
+
+    // printf("value of age: %d\n", age);
+    // printf("value  at stored address: %d\n", *pAge);
+
+    // printAge(age);
 
 
 // memory = an array of bytes within RAM (street)
