@@ -9,9 +9,61 @@
 
 int main() {
 
+    // pointer = a "variable-like" reference that holds memory address to anther variable, and some tasks are performed more easily with pointers
+    // * = indirection operator (value at address)
+    
+    
+    
 
     return 0;
 }
+
+
+
+
+
+
+// memory = an array of bytes within RAM (street)
+    // memory block = a single unit (byte) within memory, used to hold some value (person)
+    // memory  address = the address of whre a memory block is located (house address)
+// int main() {
+
+    // Bitwise operators  = special operators used in bit level programming (knowing binary is important for this topic)
+
+    //  & = AND
+    //  | = OR
+    // ^ = XOR
+    // << left shift
+    //  >> right shift
+
+//     int x = 6; // 6   = 00000110
+//     int y = 12; // 12 = 00001100
+//     int z = 0; // 0   = 00000000
+
+//     z = x & y; 
+//     printf("AND = %d\n", z);
+
+//     z = x | y; 
+//     printf("OR = %d\n", z);
+
+//     z = x ^ y; 
+//     printf("XOR = %d\n", z);
+
+//     z = x << 1; 
+//     printf("Left Shift = %d\n", z);
+
+//     z = x >> 1; 
+//     printf("Right Shift = %d\n", z);
+//     return 0;
+// }
+
+
+
+
+
+
+
+
 
 // int main() {
 
