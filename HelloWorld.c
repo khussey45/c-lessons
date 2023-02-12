@@ -6,22 +6,63 @@
 #include <time.h>
 #include <stdlib.h>
 
+// global variables
 
+// function prototypes
+void resetBoard();
+void printBoard();
+int checkFreeSpaces();
+void playerMove();
+void computerMove();
+char checkWinner();
+void printWinner(char);
 
 
 int main() {
 
    
-    FILE *pF = fopen("C:\\Users\\kiere\\OneDrive\\Desktop\\test.txt", "w");
-
 
 
     return 0;
 }
 
+void resetBoard(){
+
+}
+void printBoard() {
+}
+int checkFreeSpaces() {
+
+}
+void playerMove() {
+
+}
+void computerMove() {
+
+}
+char checkWinner() {
+
+}
+void printWinner(char winner){
+
+}
 
 
 
+
+
+
+
+    // MANIPULATING FILES
+
+    // FILE *pF = fopen("C:\\Users\\kiere\\OneDrive\\Desktop\\testtt.txt", "r");
+    // char buffer[255];
+
+    // fgets(buffer, 255, pF);
+    // printf("%s", buffer);
+    
+
+    // fclose(pF);
  // pointer = a "variable-like" reference that holds memory address to anther variable or array, and some tasks are performed more easily with pointers
     // * = indirection operator (value at address)
     
